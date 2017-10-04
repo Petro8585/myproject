@@ -1,40 +1,56 @@
-body {
-    max-width: 1200px;
-    min-width: 500px;
-    height: 2px;
-    margin: 0 auto;
-    font-family: 'Indie Flower', cursive;
-   }
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color:black;
+  border: 2px white;
+  max-width:1400px;
+    margin:0 auto;
+    display:block;
+}
 header {
     background-image: url("../img/dance.png");
-    background-position:center;
-    background-size: auto;
+    background-position: center;
     height: 250px;
-    align-self:center;
-    padding-left: 10%;
-}
-header h1 {
-    font-size: 50rem;
-    color: white;
-   }
-article {
-    padding: 14px;
-    color: black;
-    background-color: grey;
+    align-self: center;
+    max-width:1400px;
+    margin:0 auto;
+    display:block;
         }
-nav ul { 
-    list-style-type: none;
-    list-style-position: inside;
-    margin: 0;
-    padding: 10px;
+body {
     
-    }
-aside img {
-    max-width: 250px;
-    min-width: 350px;
-    background-color: grey;
-    }
-footer p {
-    text-align: center;
-    background-color: grey;
+    max-width:1200px;
+    margin:0 auto;
+    display:block;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 350px;
+  grid-gap:5px;
+  max-width:1400px;
+    margin:0 auto;
+    background-color:#00838F;
+    font-family: 'Dosis', sans-serif;
+      }
+      
+.box {
+    align-items:center;
+  background-color:#00838F;
+   font-size: 150%;
+  font-family: 'Dosis', sans-serif;
+  
+}
+#left {
+    margin-left: 10px;
+    width: 400px;
+    float: left;
+}
+#footer{
+    align-items:center;
+    background-color:#00838F;
 }
